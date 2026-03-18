@@ -1,0 +1,22 @@
+{
+  "opencode": {
+    "mode": "bearer",
+    "apiKey": "sk-TE3gdFQDtil6s5JkOyIAQPENM1RmY5NJdo8nNIqAPCsYVe6REWEKuqjgcgS4uaqC"
+  },
+  "nvidia": {
+    "mode": "bearer",
+    "apiKey": "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"
+  },
+  "deepseek-ai": {
+    "mode": "bearer",
+    "apiKey": "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"
+  },
+  "xiaomi": {
+    "mode": "bearer",
+    "apiKey": "sk-ai-v1-84dfd7aaf341a2c47162520f74b739d36105ff3107a3593a80f39cb24c52a276"
+  },
+  "scnet": {
+    "mode": "bearer",
+    "apiKey": "sk-MjE5LTEyNDI5NTQ3NjQzLTE3NzIzNTk4MjczNTc="
+  }
+}

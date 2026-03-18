@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.7",
+    "lastTouchedAt": "2026-03-08T07:26:56.025Z"
+  },
+  "env": {
+    "MINIMAX_API_KEY": "sk-",
+    "OPENCODE_API_KEY": "sk-TE3gdFQDtil6s5JkOyIAQPENM1RmY5NJdo8nNIqAPCsYVe6REWEKuqjgcgS4uaqC",
+    "NVIDIA_API_KEY": "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",
+    "ZENMUX_API_KEY": "sk-ai-v1-84dfd7aaf341a2c47162520f74b739d36105ff3107a3593a80f39cb24c52a276",
+    "DEEPSEEK_AI_API_KEY": "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",
+    "XIAOMI_API_KEY": "sk-ai-v1-84dfd7aaf341a2c47162520f74b739d36105ff3107a3593a80f39cb24c52a276",
+    "CLAW_API_KEY": "sk-MjE5LTEyNDI5NTQ3NjQzLTE3NzIzNTk4MjczNTc=",
+    "IFLOW_API_KEY": "sk-c004843450ff9a1fa755e9d50250ba57"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "zenmux": {
+        "baseUrl": "https://zenmux.ai/api/v1",
+        "apiKey": "${ZENMUX_API_KEY}",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "z-ai/glm-4.6v-flash-free",
+            "name": "GLM 4.6V Flash Free",
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "nvidia": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "apiKey": "${NVIDIA_API_KEY}",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-ai/deepseek-r1",
+            "name": "DeepSeek R1",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-ai/deepseek-v3.1",
+            "name": "DeepSeek V3.1",
+            "contextWindow": 64000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "deepseek-ai/deepseek-r1-distill-llama-8b",
+            "name": "DeepSeek R1 Distill Llama 8B",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-ai/deepseek-r1-distill-llama-70b",
+            "name": "DeepSeek R1 Distill Llama 70B",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-ai/deepseek-r1-distill-qwen-32b",
+            "name": "DeepSeek R1 Distill Qwen 32B",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "meta/llama-3.3-70b-instruct",
+            "name": "Llama 3.3 70B Instruct",
+            "contextWindow": 128000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "meta/llama-3.1-8b-instruct",
+            "name": "Llama 3.1 8B Instruct",
+            "contextWindow": 128000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "meta/llama-3.1-70b-instruct",
+            "name": "Llama 3.1 70B Instruct",
+            "contextWindow": 128000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "meta/llama-4-maverick-17b-128e-instruct",
+            "name": "Llama 4 Maverick 17B",
+            "contextWindow": 128000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "qwen/qwen3.5-32b-instruct",
+            "name": "Qwen 3.5 32B",
+            "contextWindow": 32000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "qwen/qwen3.5-397b-a17b",
+            "name": "Qwen 3.5 397B A17B",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen/qwen-2.5-coder-32b-instruct",
+            "name": "Qwen 2.5 Coder 32B",
+            "contextWindow": 32000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+            "name": "Llama 3.1 Nemotron 70B",
+            "contextWindow": 128000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "nvidia/nemotron-4-340b-instruct",
+            "name": "Nemotron 4 340B",
+            "contextWindow": 4096,
+            "maxTokens": 4096
+          },
+          {
+            "id": "mistralai/mistral-large",
+            "name": "Mistral Large",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "mistralai/codestral-22b",
+            "name": "Codestral 22B",
+            "contextWindow": 32000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "mistralai/mixtral-8x22b-instruct-v0.1",
+            "name": "Mixtral 8x22B",
+            "contextWindow": 64000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "google/gemma-2-9b",
+            "name": "Gemma 2 9B",
+            "contextWindow": 8192,
+            "maxTokens": 4096
+          },
+          {
+            "id": "google/gemma-3-1b-instruct",
+            "name": "Gemma 3 1B",
+            "contextWindow": 32000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "moonshotai/kimi-k2.5",
+            "name": "Kimi K2.5",
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "minimaxai/minimax-m2.1",
+            "name": "MiniMax M2.1",
+            "contextWindow": 1048576,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "scnet": {
+        "baseUrl": "https://api.scnet.cn/api/llm/v1",
+        "apiKey": "${CLAW_API_KEY}",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "MiniMax-M2",
+            "name": "MiniMax M2",
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "Qwen3-235B-A22B",
+            "name": "Qwen3 235B A22B",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "Qwen3-30B-A3B",
+            "name": "Qwen3 30B A3B",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "iflow": {
+        "baseUrl": "https://apis.iflow.cn/v1",
+        "apiKey": "${IFLOW_API_KEY}",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-v3.2",
+            "name": "DeepSeek V3.2",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-r1",
+            "name": "DeepSeek R1",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen3-max",
+            "name": "Qwen3 Max",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2",
+            "name": "Kimi K2",
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "iflow/deepseek-v3.2",
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "qqbot": {
+      "enabled": true,
+      "allowFrom": [
+        "*"
+      ],
+      "appId": "1903056971",
+      "clientSecret": "32pPltnTv99wVqxq"
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "d7e77479ab74013e1994871cf2bb2e3d8ea16ec769ae547c"
+    },
+    "remote": {
+      "url": "ws://127.0.0.1:18789"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "qqbot": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "qqbot": {
+        "source": "npm",
+        "spec": "@sliverp/qqbot@latest",
+        "installPath": "/root/.openclaw/extensions/qqbot",
+        "version": "1.5.3",
+        "resolvedName": "@sliverp/qqbot",
+        "resolvedVersion": "1.5.3",
+        "resolvedSpec": "@sliverp/qqbot@1.5.3",
+        "integrity": "sha512-32g2LLjdGrZEOmw5umel0DuWfRyw2HYX3P6lafFapt/98CF+2LsyAXCYBhkpTS0gN9j/pvQpLYcPilO9mWAScA==",
+        "shasum": "8bc609f0a01315ab2c958915ccbff54e3881b868",
+        "resolvedAt": "2026-03-08T07:21:39.721Z",
+        "installedAt": "2026-03-08T07:22:10.963Z"
+      }
+    }
+  }
+}

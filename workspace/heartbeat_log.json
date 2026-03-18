@@ -1,0 +1,530 @@
+[
+  {
+    "timestamp": "2026-03-10T17:18:57.576039",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70877.62,
+        "ETHUSDT": 2061.32,
+        "BNBUSDT": 645.27
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T17:18:52.406581"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T17:18:55.557683",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70867.9,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T17:18:56.555863",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2061.16,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T17:18:57.558049",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 645.26,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T17:18:57.558064"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T18:11:57.050842",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70939.78,
+        "ETHUSDT": 2063.82,
+        "BNBUSDT": 646.16
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T18:11:51.832724"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T18:11:55.030756",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70939.79,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T18:11:56.032577",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2063.8,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T18:11:57.033162",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 646.16,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T18:11:57.033177"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T18:42:26.564930",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70721.31,
+        "ETHUSDT": 2056.57,
+        "BNBUSDT": 646.69
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T18:42:21.401765"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T18:42:24.543364",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70721.31,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T18:42:25.545680",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2056.79,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T18:42:26.547114",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 646.78,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T18:42:26.547130"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T19:12:03.680245",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70732.3,
+        "ETHUSDT": 2062.74,
+        "BNBUSDT": 647.25
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T19:11:58.428462"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T19:12:01.662286",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70732.3,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T19:12:02.662348",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2062.72,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T19:12:03.662213",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 647.26,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T19:12:03.662229"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T19:42:30.872943",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70628.62,
+        "ETHUSDT": 2063.54,
+        "BNBUSDT": 645.84
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T19:42:25.715621"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T19:42:28.855136",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70626.42,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T19:42:29.854777",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2063.47,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T19:42:30.855168",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 645.83,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T19:42:30.855184"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T20:12:31.782000",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70408.42,
+        "ETHUSDT": 2056.76,
+        "BNBUSDT": 645.79
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T20:12:26.619200"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T20:12:29.756661",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70408.42,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T20:12:30.760172",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2056.81,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T20:12:31.761329",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 645.78,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T20:12:31.761347"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T20:42:32.406409",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70451.09,
+        "ETHUSDT": 2051.64,
+        "BNBUSDT": 645.95
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T20:42:27.235651"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T20:42:30.383665",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70451.09,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T20:42:31.384122",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2051.46,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T20:42:32.388380",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 645.96,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T20:42:32.388395"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T21:12:03.467172",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70724.68,
+        "ETHUSDT": 2055.33,
+        "BNBUSDT": 647.52
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T21:11:58.299659"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T21:12:01.438169",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70724.69,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T21:12:02.443677",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2055.6,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T21:12:03.449539",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 647.52,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T21:12:03.449555"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T21:42:36.562459",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 69953.88,
+        "ETHUSDT": 2031.21,
+        "BNBUSDT": 642.66
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T21:42:31.299246"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T21:42:34.544696",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 69924.55,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T21:42:35.545753",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2030.01,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T21:42:36.544697",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 642.5,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T21:42:36.544711"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T22:12:37.013401",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 69582.83,
+        "ETHUSDT": 2017.98,
+        "BNBUSDT": 640.11
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T22:12:31.842162"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T22:12:34.996488",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 69600.47,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T22:12:35.998333",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2018.8,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T22:12:36.995806",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 640.11,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T22:12:36.995821"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T22:42:06.394352",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 70428.0,
+        "ETHUSDT": 2044.9,
+        "BNBUSDT": 645.27
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T22:42:01.134575"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T22:42:04.274037",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 70432.48,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T22:42:05.276015",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2044.86,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T22:42:06.376894",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 645.38,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T22:42:06.376914"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T23:12:39.291848",
+    "binance_status": {
+      "status": "connected",
+      "balance": "\u83b7\u53d6\u4f59\u989d\u5931\u8d25: binance {\"code\":-2015,\"msg\":\"Invalid API-key, IP, or permissions for action.\"}",
+      "prices": {
+        "BTCUSDT": 71206.67,
+        "ETHUSDT": 2068.57,
+        "BNBUSDT": 648.6
+      },
+      "open_orders": 0,
+      "timestamp": "2026-03-10T23:12:33.981714"
+    },
+    "trading_opportunities": {
+      "arbitrage_opportunities": 0,
+      "strategy_results": {
+        "BTCUSDT": {
+          "timestamp": "2026-03-10T23:12:37.270969",
+          "action": "SELL",
+          "pair": "BTC/USDT",
+          "price": 71203.3,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "ETHUSDT": {
+          "timestamp": "2026-03-10T23:12:38.274863",
+          "action": "BUY",
+          "pair": "ETH/USDT",
+          "price": 2068.18,
+          "amount": 0.001,
+          "order_id": "N/A"
+        },
+        "BNBUSDT": {
+          "timestamp": "2026-03-10T23:12:39.273663",
+          "action": "BUY",
+          "pair": "BNB/USDT",
+          "price": 648.63,
+          "amount": 0.001,
+          "order_id": "N/A"
+        }
+      },
+      "timestamp": "2026-03-10T23:12:39.273678"
+    }
+  }
+]
