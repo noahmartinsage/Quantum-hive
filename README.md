@@ -1,6 +1,6 @@
 # Quantum-hive
 
-OpenClaw 工作区数据仓库
+OpenClaw 工作区数据仓库 - 备份与恢复指南
 
 ## 包含内容
 
@@ -32,6 +32,35 @@ AI Agent 生成的 Python 交易机器人相关文件：
 - tavily-search
 - weather
 
+---
+
+## 服务器重装后恢复步骤
+
+### 1. 安装 OpenClaw
+```bash
+# 安装 OpenClaw (请参考官方文档)
+npm install -g openclaw
+# 或
+pnpm add -g openclaw
+```
+
+### 2. 克隆仓库
+```bash
+git clone https://github.com/noahmartinsage/Quantum-hive.git ~/.openclaw
+```
+
+### 3. 配置 API 密钥
+编辑 `~/.openclaw/openclaw.json`，填入你的 API 密钥：
+- MINIMAX_API_KEY
+- OPENCODE_API_KEY
+- NVIDIA_API_KEY
+- 其他 API 密钥
+
+### 4. 恢复完成
+启动 OpenClaw 后，之前的记忆和对话历史都会保留。
+
+---
+
 ## 注意事项
 
-⚠️ `credentials/` 目录包含敏感 API 密钥，已排除推送。
+⚠️ `credentials/` 目录包含敏感 API 密钥，已排除推送。请在首次安装后手动配置或从安全的地方恢复。
